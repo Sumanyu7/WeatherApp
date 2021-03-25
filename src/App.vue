@@ -1,10 +1,11 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <Weather msg="Welcome to Your Vue.js App"/>
+  <h1>Weather App</h1>
+  <Weather/>
 </template>
 
 <script>
 import Weather from './components/Weather.vue'
+
 
 export default {
   name: 'App',
@@ -16,11 +17,15 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  padding-top: 30px;
+  background-color: #b3cdd1;
+  background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
+
+  height:100vh;
+
 }
 </style>
