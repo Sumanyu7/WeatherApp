@@ -4,7 +4,7 @@
       <input 
           class="form-control me-2 search" 
           type="search" 
-          placeholder="Ex: Melbourne" 
+          placeholder="Ex: Melbourne,Au" 
           aria-label="Search" 
           v-model="city"
           @keyup.enter="fetchWeather"
@@ -166,7 +166,7 @@ export default {
 }
 .col .card{
   background-color: #b1bfd8;
-  background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
+  background-image: linear-gradient(315deg, #8ca7d6 0%, #244480 74%);
   border-radius:30px;
 }
 </style>
