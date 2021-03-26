@@ -1,5 +1,9 @@
 # WeatherApp
 
+A weather app capable of showing current weather and forecast of the next 4 days.It has ability to auto-detect the user's location, or have them manually select it
+an also ability to switch between °C/°F.
+
+
 ## Project setup
 ```
 yarn install
