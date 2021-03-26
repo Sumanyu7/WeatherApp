@@ -164,6 +164,9 @@ export default {
 .custom-switch{
   margin:20px 20px 0px 0px;
 }
+.col{
+  padding-top:20px;
+}
 .col .card{
   background-color: #b1bfd8;
   background-image: linear-gradient(315deg, #8ca7d6 0%, #244480 74%);
